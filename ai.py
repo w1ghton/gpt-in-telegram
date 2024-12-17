@@ -5,7 +5,7 @@ async def ai_answer(query, model="gpt-3.5-turbo"):
     client = AsyncClient()
 
     response = await client.chat.completions.create(
-        model=model,
+        model=model,  # models here: https://platform.openai.com/docs/models
         messages=[{"role": "user", "content": query}],
     )
 
