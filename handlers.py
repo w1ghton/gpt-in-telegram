@@ -19,4 +19,4 @@ async def to_ai(message: types.Message):
         await message.answer(answer, parse_mode="Markdown")
     except Exception as e:
         await message.reply("Произошла ошибка при обработке запроса.")
-        print(f"Ошибка: {e}")
+        print(f"Error: {e}")

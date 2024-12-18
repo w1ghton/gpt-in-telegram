@@ -20,8 +20,8 @@ if __name__ == "__main__":
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
-        print("Бот остановлен.")
+        print("Bot stopped.")
         exit(0)
     else:
-        print("Ошибка")
+        print("Error")
         exit(-1)
