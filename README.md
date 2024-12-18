@@ -1,3 +1,1 @@
-# About
-
-ChatGPT in Telegram
+You only need a telegram token to use it
